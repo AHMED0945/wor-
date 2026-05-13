@@ -1,13 +1,15 @@
 #  WOR | Digital Privacy & Metadata Forensic Suite
 > **Advanced Image Sanitization & Anti-Forensics Logic**
 
-<div align="center">
-  
+  <p align="center">
+  wor
+    <br />
+    <br />
     <img src="https://img.shields.io/badge/Status-Active_Development-0052cc?style=for-the-badge&logo=github" alt="Status" />
     <img src="https://img.shields.io/badge/Access-100%25_Free-0052cc?style=for-the-badge&logo=creative-commons" alt="Access" />
     <img src="https://img.shields.io/badge/Security-SSL_Certified-0052cc?style=for-the-badge&logo=google-chrome" alt="Security" />
-</div>
-</div>
+  </p>
+</p>
 
 ---
 
