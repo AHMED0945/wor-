@@ -1,57 +1,61 @@
 #  WOR | Digital Privacy & Metadata Forensic Suite
+> **Advanced Image Sanitization & Anti-Forensics Logic**
 
-![Project Status](https://img.shields.io/badge/Status-In--Development-yellow?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-![Security](https://img.shields.io/badge/Security-Metadata%20Sanitization-blue?style=flat-square)
+<div align="center">
+  
+![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)
+![Security](https://img.shields.io/badge/Security-Verified-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-gray?style=for-the-badge)
 
-**WOR** is a professional-grade cybersecurity utility designed to audit image forensics and sanitize tracking metadata. The platform addresses the critical vulnerability of hidden EXIF data, providing users with the tools to extract, analyze, and permanently erase geographical and device-specific traces.
-
----
-
-##  Core Functionalities
-
-### 1. Forensic Metadata Extraction
-The system performs a deep binary scan of image headers to retrieve embedded metadata, including:
-* **Geospatial Data:** GPS Latitude, Longitude, and Altitude.
-* **Device Specifications:** Manufacturer, Model, and Software Version.
-* **Temporal Markers:** Precise timestamps and digitizing dates.
-
-### 2. Privacy Sanitization (The Stripper)
-Using an advanced **Canvas Reconstruction** technique, WOR destroys the original EXIF/IPTC/XMP headers. By redrawing the image at the pixel level, the system ensures that the output file is mathematically devoid of any previous metadata while maintaining visual integrity.
+</div>
 
 ---
 
-##  Practical Application: A Security Walkthrough
-
-To demonstrate the inherent risks of unmanaged metadata, WOR follows a three-step forensic workflow:
-
-1. **Identification:** User uploads a raw image; the engine identifies hidden GPS coordinates.
-2. **Visualization:** The system maps the raw data to a physical location, highlighting the precision of the potential leak.
-3. **Mitigation:** The "Privacy Stripper" module processes the image, generating a sanitized version ready for secure distribution.
+##  Project Overview
+**WOR** is a professional-grade security utility designed to tackle the "Silent Leak" — hidden metadata in digital media. While most platforms store your data, **WOR** operates with a **Zero-Knowledge Architecture**, processing everything locally to ensure maximum privacy.
 
 ---
 
-##  Technical Architecture
+##  Key Modules & Capabilities
 
-* **Environment:** Client-Side Execution (Browser-based).
-* **Processing Engine:** HTML5 Canvas API & EXIF.js Logic.
-* **Data Privacy:** Zero Server-Side interaction; all processing is volatile and occurs within the local memory.
-* **Optimization:** Designed for high-performance rendering on modern hardware.
-
----
-
-##  Project Roadmap
-
-- [x] High-fidelity UI/UX Implementation.
-- [x] GPS Forensic Mapping Engine.
-- [x] Metadata Sanitization Module.
-- [ ] Support for multi-format processing (PNG/WebP).
-- [ ] Source Code Obfuscation for enhanced integrity.
+| Module | Function | Technology |
+| :--- | :--- | :--- |
+| **Forensic Analyzer** | Deep-scan image headers to extract GPS, timestamps, and device info. | `EXIF.js` / Binary Stream |
+| **Privacy Stripper** | Complete sanitization of EXIF, IPTC, and XMP metadata. | `HTML5 Canvas API` |
+| **Secure Preview** | Instant visualization of potential data leaks on interactive maps. | `Geo-mapping Logic` |
 
 ---
 
-## Lead Developer
-**Ahmed** *Systems Architect & Cybersecurity Specialist*
+## The Security Workflow
+The application follows a rigorous forensic process to ensure data integrity:
+
+1. **Extraction:** Dissects the image file to find hidden coordinates.
+2. **Evaluation:** Shows exactly how a malicious actor could pinpoint your location.
+3. **Neutralization:** The image is "Reconstructed" at the pixel level. This process effectively wipes the metadata header, leaving only the visual data.
 
 ---
-> **Disclaimer:** This tool is intended for educational and security awareness purposes. Users are responsible for ensuring compliance with local privacy laws and regulations.
+
+##  Technical Stack
+* **Engine:** Client-Side JavaScript (ES6+).
+* **Forensics:** Advanced Metadata Parsing via `EXIF.js`.
+* **Sanitization:** Pixel-level reconstruction using the `CanvasRenderingContext2D`.
+* **Infrastructure:** Minimalist, high-performance architecture with no backend dependency.
+
+---
+
+##  Implementation Roadmap
+
+- [x] **Phase 1:** Core Forensic Engine & GPS Mapping.
+- [x] **Phase 2:** Canvas-based Metadata Sanitization.
+- [ ] **Phase 3:** Batch Processing (Multiple images at once).
+- [ ] **Phase 4:** High-Level Code Obfuscation for IP Protection.
+
+---
+
+##  Lead Developer
+**Ahmed** *Systems Architect & Cybersecurity Researcher*
+
+---
+<div align="center">
+  <sub>Built for the Security Community. Dedicated to Digital Sovereignty.</sub>
+</div>
