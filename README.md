@@ -1,4 +1,4 @@
-# 🛡️ WOR | Digital Privacy & Metadata Forensic Suite
+#  WOR | Digital Privacy & Metadata Forensic Suite
 
 ![Project Status](https://img.shields.io/badge/Status-In--Development-yellow?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
@@ -8,7 +8,7 @@
 
 ---
 
-## 🛠️ Core Functionalities
+##  Core Functionalities
 
 ### 1. Forensic Metadata Extraction
 The system performs a deep binary scan of image headers to retrieve embedded metadata, including:
@@ -21,7 +21,7 @@ Using an advanced **Canvas Reconstruction** technique, WOR destroys the original
 
 ---
 
-## 🚀 Practical Application: A Security Walkthrough
+##  Practical Application: A Security Walkthrough
 
 To demonstrate the inherent risks of unmanaged metadata, WOR follows a three-step forensic workflow:
 
@@ -31,7 +31,7 @@ To demonstrate the inherent risks of unmanaged metadata, WOR follows a three-ste
 
 ---
 
-## ⚙️ Technical Architecture
+##  Technical Architecture
 
 * **Environment:** Client-Side Execution (Browser-based).
 * **Processing Engine:** HTML5 Canvas API & EXIF.js Logic.
@@ -40,7 +40,7 @@ To demonstrate the inherent risks of unmanaged metadata, WOR follows a three-ste
 
 ---
 
-## 🏗️ Project Roadmap
+##  Project Roadmap
 
 - [x] High-fidelity UI/UX Implementation.
 - [x] GPS Forensic Mapping Engine.
@@ -50,7 +50,7 @@ To demonstrate the inherent risks of unmanaged metadata, WOR follows a three-ste
 
 ---
 
-## 👨‍💻 Lead Developer
+## Lead Developer
 **Ahmed** *Systems Architect & Cybersecurity Specialist*
 
 ---
