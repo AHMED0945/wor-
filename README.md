@@ -2,7 +2,7 @@
 > **Advanced Image Sanitization & Anti-Forensics Logic**
 
   <p align="center">
-  wor
+  WOR
     <br />
     <br />
     <img src="https://img.shields.io/badge/Status-Active_Development-0052cc?style=for-the-badge&logo=github" alt="Status" />
