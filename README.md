@@ -5,8 +5,8 @@
   
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)
 ![Security](https://img.shields.io/badge/Security-Verified-success?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-gray?style=for-the-badge)
 
+</div>
 </div>
 
 ---
